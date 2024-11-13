@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Ethiopic:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background: url(background.jpg);
+}
+
+header {
+    display: flex;
+    padding: 35px 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+nav a {
+    color: black;
+    font-weight: 500;
+    margin: 95px;
+    font-size: 18px;
+
+}
+
+nav a:hover {
+    color: #e91515;
+}
+
+.account-btn {
+    background-color: #191919;
+    color: white;
+    border: 1 solid #3b3b3b;
+    padding: 10px 20px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-icon {
+    font-size: 28px;
+    color: white;
+    margin-left: 10px;
+}
+
+.rahib-img {
+    height: 400px;
+    width: 410px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    padding: 0 15;
+    margin: 100px;
+    align-items: center;
+    gap: 30px;
+}
+
+.home-text span {
+    padding: 5px 25px;
+    background-color: #191919;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.home-text h1 {
+    font-size: 7rem;
+    margin: 25px 0;
+    -webkit-text-stroke: 2px white;
+}
+
+.home-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #595956;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    padding: 14px 34px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+}
+
+.second-btn {
+    border: 2px solid #141414;
+    margin-left: 20px;
+}
+
+.first-btn {
+    background-color: #e91515;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+
+}
+
+.second-btn:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.first-btn:hover {
+    color: white;
+}
+
+.share {
+    position: absolute;
+    bottom: 3rem;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share p {
+    font-size: 20px;
+    margin-right: 20px;
+
+
+}
+
+.social i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    color: black;
+    margin: 0px 7px;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.social i:hover {
+    transform: translateY(-10px);
+
+}
